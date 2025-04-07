@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .menu-title {
+            color: #1c0701;
+            font-weight: bold;
+        }
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card img {
+            height: 150px;
+            object-fit: cover;
+        }
+        .btn-custom {
+            background-color: #ff9800;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5 d-flex justify-content-center gap-4">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Veg Foody                <img src="logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                  </a>
+                  <a class="navbar-brand" href="#">
+                  </a>
+                  <div class ="row justify-content-center">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                          </li> -->
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Indian</a></li>
+                              <li><a class="dropdown-item" href="#">Thai</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Italian</a></li>
+                            </ul>
+                          </li>
+                          <!-- <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                          </li> -->
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                  </div>
+                  </div >
+                  
+                  </div>
+                </div>
+              </nav>
+
+<div class="container mt-4">
+    <h2 class="text-center menu-title">🍛Lunch Menu</h2>
+
+    <div class="row mt-4">
+        <!-- Row 1 -->
+       
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card shadow">
+                <img src="Dal.png" class="card-img-top" alt="Dal Tadka">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Dal Tadka</h5>
+                    <p class="card-text">₹120</p>
+                    <button class="btn btn-custom">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card shadow">
+                <img src="Roti.png" class="card-img-top" alt="Tandoori Roti">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Tandoori Roti</h5>
+                    <p class="card-text">₹40</p>
+                    <button class="btn btn-custom">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card shadow">
+                <img src="Rice.png" class="card-img-top" alt="Jeera Rice">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Jeera Rice</h5>
+                    <p class="card-text">₹100</p>
+                    <button class="btn btn-custom">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card shadow">
+                <img src="PaneerButter.png" class="card-img-top" alt="Paneer Butter Masala">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Paneer Butter Masala</h5>
+                    <p class="card-text">₹180</p>
+                    <button class="btn btn-custom">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+       
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card shadow">
+                <img src="mix.png" class="card-img-top" alt="Mixed Veg Curry">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Mixed Veg Curry</h5>
+                    <p class="card-text">₹140</p>
+                    <button class="btn btn-custom">Order Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card shadow">
+                <img src="curd.png" class="card-img-top" alt="Curd Rice">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Curd Rice</h5>
+                    <p class="card-text">₹80</p>
+                    <button class="btn btn-custom">Order Now</button>
+                </div>
+            </div>
+        </div>
+   
+    <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card shadow">
+            <img src="fruit.png" class="card-img-top" alt="Fruit Chat">
+            <div class="card-body text-center">
+                <h5 class="card-title">Fruit Chat</h5>
+                <p class="card-text">₹90</p>
+                <button class="btn btn-custom">Order Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-4">
+        <div class="card shadow">
+            <img src="green.png" class="card-img-top" alt="Salad">
+            <div class="card-body text-center">
+                <h5 class="card-title">Salad</h5>
+                <p class="card-text">₹260</p>
+                <button class="btn btn-custom">Order Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-3 col-sm-6 mb-4">
+    <div class="card shadow">
+        <img src="lassi.png" class="card-img-top" alt="Lassi">
+        <div class="card-body text-center">
+            <h5 class="card-title">Lassi</h5>
+            <p class="card-text">₹70</p>
+            <button class="btn btn-custom">Order Now</button>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<div class="row justify-content-center">        
+    <button type="button" class="btn btn-outline-success btn-lg">
+        <a href="menu.html" class="text-decoration-none text-dark">Check our menu</a>
+    </button>
+</div>
+
+
+<footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2025 Delicious Bites. All rights reserved.</p>
+</footer>
+</body>
+</html>
